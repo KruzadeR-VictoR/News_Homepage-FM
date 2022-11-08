@@ -32,7 +32,7 @@ function App() {
     nav: "fixed md:relative top-0 right-0 bg-Verydarkblue/[.6] md:bg-Offwhite h-screen md:h-auto w-full md:w-auto",
     navList:
       "flex flex-col md:flex-row pt-[40%] md:pt-0 pl-10 md:pl-0 gap-10 text-Darkgrayishblue   absolute md:relative right-0 top-0 bg-Offwhite h-full md:h-auto w-[70%] md:w-auto",
-    link: "text-lg text-Verydarkblue md:text-Darkgrayishblue hover:text-Softred",
+    link: "cursor-pointer text-lg text-Verydarkblue md:text-Darkgrayishblue hover:text-Softred",
     topSection: "flex flex-col gap-[3.5rem] md:flex-row md:gap-5",
     left: "flex flex-col gap-5",
     caption: "flex flex-col md:flex-row md:gap-10",

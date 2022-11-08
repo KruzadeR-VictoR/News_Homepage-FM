@@ -69,21 +69,11 @@ function App() {
               {isOpen && (
                 <nav className={style.nav}>
                   <ul className={style.navList}>
-                    <a href="" className={style.link}>
-                      <li>Home</li>
-                    </a>
-                    <a href="" className={style.link}>
-                      <li>New</li>
-                    </a>
-                    <a href="" className={style.link}>
-                      <li>Popular</li>
-                    </a>
-                    <a href="" className={style.link}>
-                      <li>Trending</li>
-                    </a>
-                    <a href="" className={style.link}>
-                      <li>Categories</li>
-                    </a>
+                    <li className={style.link}>Home</li>
+                    <li className={style.link}>New</li>
+                    <li className={style.link}>Popular</li>
+                    <li className={style.link}>Trending</li>
+                    <li className={style.link}>Categories</li>
                   </ul>
                 </nav>
               )}{" "}
@@ -91,25 +81,14 @@ function App() {
           ) : (
             <nav className={style.nav}>
               <ul className={style.navList}>
-                <a href="" className={style.link}>
-                  <li>Home</li>
-                </a>
-                <a href="" className={style.link}>
-                  <li>New</li>
-                </a>
-                <a href="" className={style.link}>
-                  <li>Popular</li>
-                </a>
-                <a href="" className={style.link}>
-                  <li>Trending</li>
-                </a>
-                <a href="" className={style.link}>
-                  <li>Categories</li>
-                </a>
+                <li className={style.link}>Home</li>
+                <li className={style.link}>New</li>
+                <li className={style.link}>Popular</li>
+                <li className={style.link}>Trending</li>
+                <li className={style.link}>Categories</li>
               </ul>
             </nav>
-          )
-          }
+          )}
 
           <img
             src={isOpen ? closeIcon : menuIcon}
